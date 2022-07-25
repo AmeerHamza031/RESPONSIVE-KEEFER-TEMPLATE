@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(150deg, #fff 75%, #ececea 100%);
+    width: 100%;
+    height: 140px;
+
+}
+
+header .logo {
+    width: 50%;
+    height: 100%;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .phone-no {
+    padding: 0.8rem 1.5rem 0.8rem 0rem;
+}
+
+header .phone-no h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #a70c0c;
+}
+
+header .phone-no h2:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    display: block;
+    margin-top: 0.1rem;
+    background-color: gray;
+}
+
+/*======== HEADER H1 & PARAGRAPH ========*/
+
+header .phone-no h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+header .phone-no p {
+    text-transform: capitalize;
+    word-spacing: 0.1rem;
+    font-size: 17px;
+
+}
+
+/* =======NAVIGATION MENU======== */
+nav {
+    background-color: #8b3030;
+    width: 100%;
+    float: right;
+}
+
+nav .menu {
+    width: 100%;
+}
+
+nav .menu ul {
+    float: right;
+    padding-right: 3.1rem;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+nav .menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 1rem;
+    transition: 0.3s linear;
+}
+
+nav .menu ul li:hover {
+    background-color: #858585;
+    color: #fff;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .menu .active {
+    background-color: #858585;
+}
+
+/* ======SECTION 1====== */
+
+.section-1 {
+    width: 100%;
+    margin-top: 5rem;
+    padding: 0 1.5rem;
+}
+
+.section-1 .main-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section-1 .main-div .left-side,
+.section-1 .main-div .right-side {
+    width: 50%;
+    height: 420px;
+}
+
+/* ==== LEFT-SIDE ==== */
+
+.section-1 .main-div .left-side img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ==== RIGHT-SIDE ==== */
+
+.section-1 .main-div .right-side {
+    background-image: linear-gradient(rgba(115, 115, 115, 0.4),
+            rgba(37, 33, 33, 0.3)), url(./img/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 .top-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+
+.section-1 .top-div .left h1 {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #a70c0c;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+
+.section-1 .top-div .right {
+    width: 100%;
+}
+
+.section-1 .top-div .right h2 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-weight: bold;
+}
+
+.section-1 .top-div .right h2 span {
+    font-size: 2.5rem;
+    color: rgb(52, 5, 99);
+}
+
+.section-1 .main-div .right-side p {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    padding-right: 2rem;
+
+}
+
+.section-1 .main-div .right-side p .p-span {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+/* ==== FORM ==== */
+
+.section-1 .main-div .right-side form {
+    /* width: 70%; */
+    /* margin-left: 3rem;
+    margin-top: 0.5rem; */
+    position: relative;
+    padding: 2% 4%;
+}
+
+.section-1 .main-div .right-side .confidential {
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    transform: rotate(20deg);
+}
+
+.section-1 .main-div .right-side form input {
+    width: 60%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.section-1 .main-div .right-side form .input-2 {
+    margin-left: 0.7rem;
+}
+
+.section-1 .main-div .right-side form textarea {
+    width: 100%;
+    padding-top: 0.3rem;
+}
+
+.section-1 .main-div .right-side form .input-3 {
+    margin-left: 0.322rem;
+}
+
+.section-1 .main-div .right-side form textarea,
+.section-1 .main-div .right-side form input {
+    border: none;
+    padding-left: 0.3rem;
+    outline: none;
+}
+
+.section-1 .main-div .right-side form textarea:focus,
+.section-1 .main-div .right-side form input:focus {
+    outline: none;
+}
+
+.section-1 .main-div .right-side .bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0rem;
+    margin-top: 0.8rem;
+    margin-left: 3rem;
+    width: 70%;
+}
+
+.section-1 .main-div .bottom-div button {
+    width: 12rem;
+    height: 2.8rem;
+    color: white;
+    border: none;
+    background-color: #a70c0c;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-1 .main-div .right-side .bottom-div p {
+    opacity: 0.4;
+    padding-left: 0;
+    font-size: 0.9rem;
+    padding-top: 0;
+    margin: 0;
+}
+
+/* ====SECTION-2==== */
+
+.section-2 {
+    padding: 1.8rem 3rem;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.section-2 .main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 .main-div .box {
+    width: 350px;
+    height: 370px;
+    padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+/* BOX-1 */
+
+.section-2 .main-div .box-1 .main-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.section-2 .main-div .box-1 .main-box .left {
+    width: 60%;
+}
+
+.section-2 .main-div .box-1 .main-box .right {
+    width: 35%;
+    height: 8rem;
+
+}
+
+.section-2 .main-div .box-1 .main-box .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-2 .main-div .box-1 h1,
+.section-3 .main-div .box3 h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: rgb(60, 60, 60);
+    padding-bottom: 0.4rem;
+}
+
+.section-2 .main-div .box-1 span,
+.section-2 .main-div .box-3 span {
+    color: #a70c0c;
+}
+
+.section-2 .main-div .box-1 h2,
+.section-2 .main-div .box-3 h2,
+.section-3 .main-div .box3 h2 {
+    text-transform: uppercase;
+    color: rgb(60, 60, 60);
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.section-2 .main-div .main-box p {
+    color: rgb(60, 60, 60);
+}
+
+.section-2 .main-div .box-1 button {
+    margin: 2.5rem 0rem 0rem 8rem;
+}
+
+.section-2 .main-div button,
+.section-3 .main-div .box3 button {
+    width: 10rem;
+    height: 2rem;
+    background-color: #a70c0c;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 3px 10px rgb(171, 171, 171);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-2 .main-div button::before,
+.section-3 .main-div .box3 button::before {
+    content: "";
+    width: 140%;
+    height: 1px;
+    background-color: rgb(171, 171, 171);
+    position: absolute;
+    top: 0;
+    right: -15%;
+}
+
+/* ==== BOX-2 ==== */
+
+.section-2 .main-div .box-2 {
+    width: 450px;
+    border-left: 1px solid rgb(208, 208, 208);
+    border-right: 1px solid rgb(208, 208, 208);
+
+}
+
+.section-2 .main-div .box-2 .top-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.8rem;
+}
+
+.section-2 .main-div .box-2 .bottom-box {
+    padding-top: 0.8rem;
+}
+
+.section-2 .main-div .box-2 .top-box .left,
+.section-2 .main-div .box-2 .top-box .right {
+    width: 55%;
+}
+
+.section-2 .main-div .box-2 .top-box .right {
+    width: 45%;
+}
+
+.section-2 .main-div .box-2 img {
+    width: 100%;
+}
+
+.section-2 .main-div .box-2 h2 {
+    text-transform: uppercase;
+    color: rgb(60, 60, 60);
+    padding-bottom: 0.4rem;
+}
+
+.section-2 .main-div .box-2 span,
+.section-3 .main-div .box3 span {
+    color: #a70c0c;
+}
+
+.section-2 .main-div .box-2 p,
+.section-2 .main-div .box-3 p {
+    color: rgb(60, 60, 60);
+}
+
+.section-2 .box-2 button {
+    margin: 2.5rem 0rem 0rem 2.8rem;
+}
+
+/* ====BOX-3==== */
+.section-2 .main-div .box-3 .top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem 1.5rem 1rem;
+}
+
+.section-2 .main-div .box-3 button {
+    margin: 2rem 0rem 0rem 8rem;
+}
+
+/* ======= section-3 ========= */
+.section-3 {
+    padding: 3.5rem 1rem;
+}
+
+.section-3 .main-div h1 {
+    padding-bottom: 0rem;
+    text-transform: uppercase;
+}
+
+.section-3 .main-div .box1 h4 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 130%;
+    margin-top: 2rem;
+}
+
+.section-3 .main-div .box1 h5 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: gray;
+    text-align: center;
+    opacity: 0.3;
+}
+
+.section-3 .main-div .box1 span {
+    color: #a70c0c;
+}
+
+.section-3 .main-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 2rem;
+}
+
+.section-3 .main-div .box1 .child-div {
+    width: 14rem;
+    height: 4rem;
+    position: relative;
+    background-color: gray;
+    color: #fff;
+    margin-top: 1.5rem;
+    border-left: 10px solid #8b3030;
+    padding: 0.2rem 0.8rem;
+}
+
+.section-3 .main-div .box1 .child-div h2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.section-3 .main-div .box1 .child-div button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    right: 10%;
+    margin-top: 0.6rem;
+}
+
+.section-3 .main-div .box1 .child-div button i {
+    color: #8b3030;
+    font-size: 0.9rem;
+}
+
+.section-3 .main-div .box2 h1 {
+    padding-bottom: 1.8rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: gray;
+}
+
+.section-3 .main-div .box2 {
+    width: 60%;
+}
+
+.section-3 .main-div .box3 #top {
+    margin-top: 0rem;
+}
+
+.section-3 .main-div .box3 .box3-child {
+    margin-top: 2rem;
+}
+
+.section-3 .main-div .box2 p {
+    line-height: 1.9rem;
+}
+
+.section-3 .main-div .box3 ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0rem 0.3rem;
+}
+
+.section-3 .main-div .box3 {
+    /* border: 2px solid red; */
+    width: 300px;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.section-3 .main-div .box3 button {
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+
+.section-3 .main-div .box3 .box3-child h1 {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.section-3 .main-div .box3 .box3-child h1::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.5rem;
+    display: block;
+}

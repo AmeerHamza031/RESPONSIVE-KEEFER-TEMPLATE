@@ -1,0 +1,260 @@
+@media (max-width:900px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        row-gap: 2rem;
+        padding: 1rem 0rem;
+
+    }
+}
+
+@media (max-width:732px) {
+    header .logo {
+        width: 80%;
+    }
+
+    header .phone-no {
+        /* width: 80%;*/
+        text-align: center;
+    }
+
+    header .phone-no h2 {
+        font-size: 1rem;
+    }
+
+    header .phone-no h1 {
+        font-size: 2rem;
+    }
+
+    header .phone-no p {
+        font-size: 14px;
+    }
+}
+
+/* === MENU === */
+
+@media (max-width:755px) {
+    nav .menu {
+        position: absolute;
+        width: 250px;
+        height: 100vh;
+        background-color: coral;
+        top: -100vh;
+        right: 0;
+        z-index: 99;
+        transition: 0.3s linear;
+    }
+
+    nav .menu ul li {
+        margin-bottom: 00.5rem;
+    }
+
+    nav .menu ul {
+        padding: 40px;
+    }
+
+    nav .fa-solid {
+        display: block;
+        margin: 15px;
+        color: white;
+        float: right;
+    }
+}
+
+/* SECTION-1 */
+@media (max-width:1400px) {
+    .section-1 .main-div .right-side .confidential {
+        display: none;
+    }
+}
+
+@media (max-width:1005px) {
+    .section-1 .main-div {
+        flex-direction: column;
+        padding: 0 0;
+    }
+
+    .section-1 .main-div .left-side,
+    .section-1 .main-div .right-side {
+        width: 100%;
+    }
+
+    .section-1 .main-div .right-side {
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .section-1 .main-div .right-side p {
+        text-align: center;
+        padding: 0 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .section-3 .main-div .box1 h4,
+    .section-3 .main-div .box1 h5 {
+        display: none;
+    }
+}
+
+@media (max-width:758px) {
+    .section-1 .main-div .right-side .bottom-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .section-1 .top-div .right h2 {
+        font-size: 0.8rem;
+    }
+
+    .section-1 .top-div .right h2 span {
+        font-size: 1rem;
+    }
+
+    .section-1 .top-div .left h1 {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (max-width:555px) {
+
+    .section-1 .top-div .left,
+    .section-1 .top-div .right {
+        width: 50%;
+        text-align: center;
+    }
+
+    .section-1 .top-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        row-gap: 0.2rem;
+        margin-top: 0.5rem;
+        padding-bottom: 0.8rem;
+    }
+
+    .section-1 .main-div .right-side form {
+        width: 95%;
+        margin-left: 0.5rem;
+    }
+
+    .section-1 .main-div .right-side p {
+        padding-left: 0.5rem;
+    }
+
+    .section-1 .main-div .right-side .bottom-div .left,
+    .section-1 .main-div .right-side .bottom-div .right {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:610px) {
+
+    .section-1 .top-div .left,
+    .section-1 .top-div .right {
+        width: 80%;
+    }
+
+    .section-1 .main-div .left-side,
+    .section-1 .main-div .right-side {
+        width: 100%;
+        padding: 0rem 0rem;
+    }
+
+    .section-1 .main-div .right-side .bottom-div {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .section-1 {
+        padding: 0rem 0rem;
+        margin-top: 0rem;
+    }
+
+    nav {
+        margin-bottom: 1rem;
+    }
+
+    .section-1 .main-div .right-side .bottom-div .left,
+    .section-1 .main-div .right-side .bottom-div .right {
+        width: 80%;
+        align-items: center;
+    }
+
+    .section-1 .main-div .right-side .bottom-div p {
+        text-align: center;
+    }
+
+    .section-1 .main-div .right-side .bottom-div button {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+}
+
+/* SECTION-2 */
+
+@media (max-width:1100px) {
+    .section-2 .main-div {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    .section-2 .main-div .box {
+        height: auto;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .section-2 .main-div .box {
+        width: 80%;
+    }
+}
+
+@media (max-width:550px) {
+    .section-2 .main-div .box {
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    header .phone-no {
+        padding: 0.8rem 0rem 0.8rem 0rem;
+    }
+
+    .section-2 {
+        padding: 1.8rem 1rem;
+    }
+
+    .section-2 .main-div button,
+    .section-2 .main-div .box3 button {
+        width: 6rem;
+    }
+
+}
+
+/* SECTION-3 */
+
+@media (max-width:1000px) {
+    .section-3 .main-div {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-3 .main-div .box2 {
+        text-align: center;
+    }
+}
